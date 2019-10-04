@@ -1,0 +1,41 @@
+2006-08-16 Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>
+
+	* HTML:
+
+	  - Now deal with forms arrays values.
+
+2006-07-31 Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>
+
+	* Version: 0.1.1
+
+	* PHP:
+	  - Fixed a stupid compatibility problem. Now aPAz should *really*
+	    work with php < 5.
+
+	* aPAz history:
+	  - Fixed a fiew bugs.
+	
+	* HTTP:
+	  - Fixed a problem with multiple cookies.
+	  - Fixed a problem with "Accept-Encoding" header field.
+
+	* HTML parser:
+	  - URL encoding fixes.
+	  - HTML encoding fixes.
+
+	* CSS:
+	  - Some fixes.
+
+	* Javascript:
+	  - Better support for anchors links.
+
+2006-07-30 Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>
+
+	* Version: 0.1.0
+	
+	This is the first release of aPAz, A Php AnonymiZer. 
+
+	aPAz already supports HTTP protocol, HTML GET/POST forms and cookies.
+	Also "One Time" encryption is applied on page links. However neither 
+	frames nor pages containing strange/complex javascript code are yet 
+	well supported, and some Web sites will not work.
